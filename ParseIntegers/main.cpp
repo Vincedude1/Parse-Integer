@@ -26,7 +26,7 @@ int main()
     cin.ignore();
     cin.getline(userInput, 40);
     
-    parseInt(userInput, integers);
+    char parseInt(char userInput[40], char integers[40]);
     
     cout << "The integers inside the string you entered were: \n" << integers;
     
