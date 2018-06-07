@@ -38,10 +38,10 @@ char parseInt(char userInput[40], char& integers)
     int j = 0;
     for(int i = 0; i<sizeof(userInput); i++)
     {
-        if( userInput[i] == 1 || userInput[i] == 2 || userInput[i] == 3 || 
-            userInput[i] == 4 || userInput[i] == 5 || userInput[i] == 6 ||
-            userInput[i] == 7 || userInput[i] == 8 || userInput[i] == 9 ||
-            userInput[i] == 0 )
+        if( userInput[i] == 48 || userInput[i] == 49 || userInput[i] == 50 || 
+            userInput[i] == 51 || userInput[i] == 52 || userInput[i] == 53 ||
+            userInput[i] == 54 || userInput[i] == 55 || userInput[i] == 56||
+            userInput[i] == 57 )
         {
             integers = userInput[i];
             j++;
